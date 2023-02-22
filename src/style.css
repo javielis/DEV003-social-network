@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{background-color: rgb(221, 55, 121);
+   
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{background-color:   rgba(42, 85, 128, 0.979);
+
+}
+header .logo1.jpg{
+    background-color: rgb(3, 25, 45);
+    width: 15%;
+    height:200px;
+    background-image:url(https://media.tenor.com/zuGJiqsnkPIAAAAC/eevee-pikachu.gif);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
