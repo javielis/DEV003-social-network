@@ -8,3 +8,10 @@ const inicio = () => {
 };
 
 window.addEventListener('load', inicio);
+const root = document.getElementById('root');
+
+const routes = {
+  '/': tipsbelleza,
+};
+
+root.appendChild((changeView ));

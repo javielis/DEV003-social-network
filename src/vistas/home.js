@@ -4,24 +4,17 @@ export default () => {
     <h1> APRENDE Y COMPARTE</h1>
     </header>
     <div class="logo">
-        <img src="imagenes/logo.jpg" >
+        <img src="imagenes/logo.jpg" id = 'logos'  >
     </div>
     <p>Ingresa tu nombre</p>
-  <input class="texto"></input>
+  <input class="nombre" id ='nombre'></input>
   <div> 
-  <button name="ingresar" id= "botonIngresar" type="button">INGRESAR</button>
-  </div>
-      `;
+  <a href="#/tipsbelleza" name="ingresar" id= "botonIngresar" type="button" >INGRESAR</a>
+  </div> `;
   const divElement = document.createElement('div');
   divElement.innerHTML = home;
-  // console.log(divElement)
   return divElement;
+  // console.log(divElement)
+ 
 };
 
-// document.getElementById('botonIngresar').addEventListener('click', ingresar);
-
-// function ingresar(){
-// Lograr que la funcion me lleve a la ruta correspondiente 
-// lograr que la funcion estando en la ruta me personalice la bienvenda 
-
-// }
