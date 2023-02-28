@@ -8,10 +8,10 @@ const inicio = () => {
 };
 
 window.addEventListener('load', inicio);
-const root = document.getElementById('root');
+// const root = document.getElementById('root');
 
-const routes = {
-  '/': tipsbelleza,
-};
+// const routes = {
+//   '/': tipsbelleza,
+// };
 
-root.appendChild((changeView ));
+// root.appendChild((changeView ));
