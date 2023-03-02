@@ -20,22 +20,22 @@ export default (saludo) => {
   const div = document.createElement('div');
   div.className = ('div');
   const buttonEnviar = document.createElement('button');
-  buttonEnviar.className = 'boton';
+  buttonEnviar.className = 'publicar';
   const buttonEliminar = document.createElement('button');
-  buttonEliminar.className = 'butonEli';
+  buttonEliminar.className = 'buttonEli';
   const buttonEditar = document.createElement('button');
-  buttonEditar.className = 'butoEditar';
+  buttonEditar.className = 'buttonEditar';
   // creando mi imagen con su class
   const imagen = document.createElement('img');
   imagen.className = 'imagen';
   // creando mi input con su class
   const input = document.createElement('input');
-  input.className = 'input';
+  input.className = 'inputComentario';
 
   // de esta forma especifico o agrego texto o imagen a mis botones o pantalla.
   imagen.src = 'imagenes/logo.jpg';
   input.textContent = 'input';
-  buttonEnviar.textContent = 'ENVIAR';
+  buttonEnviar.textContent = 'PUBLICAR';
   buttonEliminar.textContent = 'ELIMINAR';
   buttonEditar.textContent = 'EDITAR';
 
